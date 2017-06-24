@@ -60,7 +60,7 @@ html {
     transition: all 0.5s;
     transform: translateY(100px);
     will-change: opacity;
-    display: none;
+    flex-direction: column;
   }
 
   .trigger-enter .dropdown {
@@ -71,7 +71,9 @@ html {
     opacity: 1;
   }
 
-
+  .code {
+    margin-right: 5px;
+  }
 
   .dropdownBackground {
     width:100px;
@@ -109,14 +111,8 @@ html {
   }
 
   .bio img {
-    float:left;
     margin-right:20px;
     width: 128px;
-    height: 128px;
-  }
-
-  .courses {
-    min-width:300px;
   }
 
   .courses li {
